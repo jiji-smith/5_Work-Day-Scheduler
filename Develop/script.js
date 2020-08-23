@@ -38,9 +38,9 @@ $(document).ready(function () {
         // change the color by time
         if (currentTime === i) {
             input.addClass("present")
-        } else if (currentTime < i) {
-            input.addClass("past")
         } else if (currentTime > i) {
+            input.addClass("past")
+        } else if (currentTime < i) {
             input.addClass("future")
         }
 

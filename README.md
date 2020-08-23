@@ -11,7 +11,7 @@ you can see the files here :
 * it will show the past, present, future in different colors.
 
 ![Daily Planner](/Assets/phone.png) <br>
-(/Assets/phone.png)
+
 
 ## Key Topics
 
