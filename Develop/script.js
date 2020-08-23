@@ -72,6 +72,7 @@ $(document).ready(function () {
         var hourFinder = $(this).siblings(".hour").attr("id");
         // console.log(hourFinder);
         localStorage.setItem(hourFinder, userTodo);
+        alert("saved!");
     });
 
 
