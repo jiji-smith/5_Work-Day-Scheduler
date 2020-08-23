@@ -24,7 +24,12 @@ $(document).ready(function () {
         var hourDiv = $("<div></div>");
         hourDiv.addClass("hour");
         hourDiv.attr("id", i);
-        hourDiv.text(i + ":00");
+        // to make the width same
+        if (i<10) {
+            hourDiv.text("0" + i + ":00")
+        } else {
+            hourDiv.text(i + ":00");
+        }
 
         // create input field
 
@@ -55,7 +60,7 @@ $(document).ready(function () {
     var btnRow = $("<button></button>");
     // add class name "clearBtn"
     btnRow.addClass("clearBtn");
-    btnRow.text("CLEAR ALL");
+    btnRow.text("Clear All");
     $("body").append(btnRow);
 
 
@@ -72,7 +77,7 @@ $(document).ready(function () {
 
     $(".clearBtn").on("click", function () {
         $("input").val('');
-       localStorage.clear();
+        localStorage.clear();
     });
 
 });

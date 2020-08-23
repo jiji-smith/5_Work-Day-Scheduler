@@ -1,30 +1,50 @@
-body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  line-height: 1;
+H1, .description, .saveBtn {
+  font-family: 'Shadows Into Light', cursive;
 }
 
-textarea{
+body {
+
+  background: #1E0EFF;
+  background: -moz-linear-gradient(top, #1E0EFF 0%, #FFFFFF 75%, #F4F4F4 100%);
+  background: -webkit-linear-gradient(top, #1E0EFF 0%, #FFFFFF 75%, #F4F4F4 100%);
+  background: linear-gradient(to bottom, #1E0EFF 0%, #FFFFFF 75%, #F4F4F4 100%);
+
+
+}
+
+/* textarea{
   background: transparent;
   border: none;
   resize: none;
   color: #000000;
   border-left: 1px solid black;
   padding: 10px;
-}
+} */
 
 .jumbotron {
-  text-align: center;
+  background: #1900FF;
+  background: -moz-linear-gradient(-45deg, #1900FF 0%, #69C4E7 75%, #EEF48C 100%);
+  background: -webkit-linear-gradient(-45deg, #1900FF 0%, #69C4E7 75%, #EEF48C 100%);
+  background: linear-gradient(135deg, #1900FF 0%, #69C4E7 75%, #EEF48C 100%);
   background-color: transparent;
   color: black;
   border-radius: 0;
-  border-bottom: 10px solid black;
+  border-bottom: 5px solid black;
+  text-align: center;
+  color: white;
 }
 
 .description{
   white-space: pre-wrap;
-
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px dotted black;
+  padding: 10px;
+  width: 70%
 }
+
 
 .time-block{
   text-align: center;
@@ -33,36 +53,39 @@ textarea{
 
 .row {
   white-space: pre-wrap;
-  height: 80px;
+  height: 50px;
   border-top: 1px solid white;;
 }
 
 .hour {
-  background-color: #ffffff;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color:transparent;
   color: #000000;
-  border-top: 1px dashed #000000;
+  border-top: 1px;
+  text-align: center;
+  padding: 10px;
 }
 
 .past {
-  background-color: #d3d3d3;
+  background-color: #484848aa;
   color: white;
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: #ee3a4cc2;
   color: white;
 }
 
 .future {
-  background-color: #77dd77;
-  color: white;
+  background-color: #f56ef590;
+  color: rgb(0, 0, 0);
 }
 
 .saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06AED5;
+  background-color: #0552a5c9;
   color: white;
 }
 
@@ -72,6 +95,19 @@ textarea{
 }
 
 
-.hour {
-  width: 10$;
+.clearBtn {
+  background: #D0E4F5 url("https://www.geeklawblog.com/wp-content/uploads/sites/528/2018/12/liprofile-656x369.png") repeat-x scroll 50% 50%;
+  text-align: center;
+  margin: 30px;
+  margin-left: 20px;
+  padding: 5px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(247, 193, 193);
+  border-radius: 5px;
+  font-family: 'Times New Roman', Times, serif
 }
+
+#currentDay {
+  font-family: fantasy;
+}
+

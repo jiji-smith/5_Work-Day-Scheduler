@@ -5,6 +5,14 @@ you can see the files here :
 > [published] (https://jiji-smith.github.io/5_Work-Day-Scheduler/)
 
 
+## Work Daily Planner
+* you can add/edit to-do list hourly from 0900 to 1700
+* even after refresing your page, it will store the list.
+* it will show the past, present, future in different colors.
+
+![Daily Planner](/Assets/phone.png) <br>
+(/Assets/phone.png)
+
 ## Key Topics
 
 * JSON
